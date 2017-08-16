@@ -7,11 +7,11 @@ import java.sql.SQLException;
 public class DBUtil {
 	
 	/**
-	 * Don't forget to change database url, username and password... I guess it won't work otherwise.
+	 * Don't forget to change database username and password acording to your database.
 	 */
 	private static final String database_url = "jdbc:mysql://localhost:3306/database?autoReconnect=true&useSSL=false";
 	private static final String database_username = "root";
-	private static final String database_password = "javasql#19083";
+	private static final String database_password = "javasql#1234";
 
 	private static Connection conn = null;
 	private static DBUtil instance = null;
