@@ -29,14 +29,14 @@ public class AccountInfoGUI extends JFrame {
 		JLabel usernameLabel 		= new JLabel("username:");
 		JLabel firstNameLabel 		= new JLabel("First Name:");
 		JLabel lastNameLabel 		= new JLabel("Last Name:");
-		JLabel emailLabel 			= new JLabel("e-mail:");
+		JLabel emailLabel 		= new JLabel("e-mail:");
 		JLabel dateOfCreationLabel	= new JLabel("Date of creation:");
 		JLabel lastLoginDateLabel	= new JLabel("Last log in date:");
 
-		JLabel userUsername		 	= new JLabel(username);
+		JLabel userUsername		= new JLabel(username);
 		JLabel userFirstName 		= new JLabel(first_name);
 		JLabel userLastName 		= new JLabel(last_name);
-		JLabel userEmail 			= new JLabel(email);
+		JLabel userEmail 		= new JLabel(email);
 		JLabel userCreationDate		= new JLabel(creationDate);
 		JLabel userLastLoginDate	= new JLabel(lastLoginDate);
 		
